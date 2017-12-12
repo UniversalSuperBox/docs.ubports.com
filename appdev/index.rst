@@ -34,26 +34,9 @@ The `Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/platform/sdk>`__
 is no longer supported by Canonical, and UBports does not currently have
 the the time and manpower to get it to a working state.
 
-It can still be installed, but issues are expected.
-
-::
+It can still be installed, but issues are expected::
 
     sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
     sudo apt update && sudo apt dist-upgrade
     sudo apt install ubuntu-sdk
     sudo reboot # or logout/login
-
-
-On-device software development
-------------------------------
-
-Ubuntu Touch is free software, that means the sky is the limit. In this section, an alternative approaches to software development is discussed, where various tools that run on the device itself are used.
-
-See :doc:`Development with Lazarus<on-device/lazarus>` for true RAD with Object Pascal and :doc:`development with Geany<on-device/geany>` for all your C, C++, C#, Java, JavaScript, PHP, HTML, LaTeX, CSS, Python, Perl, Ruby, Pascal, Haskell, Erlang or even Vala needs.
-
-.. toctree::
-    :maxdepth: 1
-    :name: toc-appdev-on-device
-
-    on-device/geany
-    on-device/lazarus
