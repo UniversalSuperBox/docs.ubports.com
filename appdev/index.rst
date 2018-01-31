@@ -10,6 +10,16 @@ Introduction
 
     TODO app development overview : platform specificity, packaging introduction, which language available, content hub, push service, online accounts, ...
 
+Design
+------
+
+Learn about designing your apps for Ubuntu Touch
+
+.. toctree::
+   :maxdepth: 2
+   
+   design/index
+
 Clickable
 ---------
 
