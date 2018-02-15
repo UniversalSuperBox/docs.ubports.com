@@ -56,6 +56,7 @@ If you want to help improving this documentation, :doc:`the Documentation contri
    :caption: Platform
    :name: sec-platform
 
+   platform/hacking
    Click Packages <https://click.readthedocs.io/en/latest/index.html>
    Ubuntu UI-Toolkit <https://api-docs.ubports.com/>
    Clickable <http://clickable.bhdouglass.com/en/latest/index.html>
