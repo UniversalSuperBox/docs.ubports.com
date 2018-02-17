@@ -55,7 +55,11 @@ Build a package
 
 Now it's time for what you've been waiting for! Let's build the package.
 
-To start, move into the build chroot again and ``cd`` to the ``source`` directory.
+To start, move into the build chroot again and ``cd`` to the ``source`` directory. Then, run the following command to build the package::
+
+    debuild -uc -us -j4
+
+This builds your package without signing the Changes file or source package. You may change the number after the ``-j`` option to match the nubmer of cores in your system for faster building.
 
 http://iomem.com/archives/18-Avoiding-tests-when-building-Debian-packages.html
 
